@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: 300;
+}
+html{
+    font-size: 62.5%;
+}
+.main-div{
+    width:100vw;
+    min-height:100vh;
+    display:grid;
+    place-items: center;
+    background-color: hsl(206,92%,94%);
+}
+.inner-div{
+    width:40vw;
+    background-color: aliceblue;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -.7rem rgba(0,0,0,0.4);
+}
+.inner-div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0;
+
+}
+
+.inner-div li{
+    font-size:2rem;
+    margin-top:1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor:pointer;
+}
+
+#submit , .btn{
+padding:1rem 3rem;
+outline:none;
+font-size: 4 rem;
+font-size: 500;
+border:none;
+display:block;
+margin: auto;
+background-color: #9b59b6;
+margin-top:4rem ;
+color: aliceblue;
+cursor: pointer;
+}
+
+#submit:hover{
+  background-color: #34495e;
+  font-size: 4 rem;
+}
+
+#showScore{
+    background-color: #95a5a6;
+    margin-top:3rem;
+    padding:3rem 4rem;
+    box-shadow: 0 1rem 1rem -.7rem rgba(0,0,0,0.4);
+
+}
+
+#showScore h3{
+    font-size: 2rem;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 2rem 4rem;
+    background-color: #16a085;
+    color:#2c3e50;
+   
+}
+#showScore .btn:hover{
+background-color: #27ae60;
+color:white;
+}
+
+.scoreArea{
+    display:none;
+}
